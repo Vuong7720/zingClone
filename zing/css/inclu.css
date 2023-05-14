@@ -1,0 +1,130 @@
+:root{
+    --text-color:#333;
+    --main-color:#409abc;
+    --w-text-color:#fff;
+    --bg-menu-color:rgb(241, 230, 230);
+    --g-text-color:rgb(113, 110, 110);
+    --g-bg-color:rgb(216, 214, 214);
+    --active-color:#F3D4D4;
+    --active-m-color:rgba(194, 41, 41, 0.5);
+}
+
+.hidden1 {
+    display: block !important;
+  }
+@media (max-width: 1350px) {
+    .playlist-item1:nth-last-child(-n+1) {
+      /* display: none; Ẩn 2 phần tử cuối cùng */
+    }
+    .left-menu{
+        width:200px;
+    }
+    .main-menu{
+        padding:0 !important;
+    }
+    .core-click{
+        display:none;
+    }
+    .chose{
+        display:none;
+    }
+  }
+
+  @media (max-width:990px) {
+    .input-head{
+        width:450px;
+    }
+    .on-item-click{
+        visibility: hidden;
+        height: 20px;
+    }
+    .on-item-click i{
+        visibility: visible;
+        font-size:1.8rem ;
+        width: 100%;
+        margin-top: 8px;
+    }
+    .left-menu{
+        max-width:110px;
+    }
+    .add-playlist{
+        visibility: hidden;
+    }
+    .add-playlist i{
+        visibility: visible;
+        margin-left:25px ;
+        font-size: 1.6rem;
+    }
+    .su-head{
+        display: none;
+    }
+    .logo{
+        width: 90px;
+    }
+    .left-on-item{
+        height: 45px;
+    }
+    .n76{
+        display: none;
+    }
+    .t76{
+        height:1px;
+        border-top:1px solid rgb(240, 145, 145);
+    }
+    .t76 h4{
+        display: none;
+    }
+    .t76 a i{
+        display: none;
+    }
+    .nav-category_link{
+        font-size:15px;
+    }
+    .heg{
+        height: 270px;
+    }
+    .detai-name-song{
+        display: none;
+    }
+    .nav-song1{
+        display: none;
+    }
+    .volum-up{
+        display: none;
+    }
+  }
+
+  @media (max-width:860px) {
+    .add-playlist{
+        visibility: hidden;
+    }
+    .add-playlist i{
+        visibility: visible;
+        margin-left:25px ;
+        font-size: 1.6rem;
+    }
+    .su-head{
+        display: none;
+    }
+    .nav-category_link{
+        font-size:15px;
+    }
+    .heg{
+        height: 270px;
+    }
+    .detai-name-song{
+        display: none;
+    }
+    .nav-song{
+        display: none;
+    }
+    .volum-up{
+        display: none;
+    }
+  }
+
+  @media (max-width:760px){
+    .nav-category_link{
+        font-size:10px;
+    }
+  }
